@@ -39,7 +39,7 @@ function displayLastOrder(order) {
       setTimeout(function() {
         imagen.src = 'images/cortinasAbiertas.png';
       }, 2000);
-    } else if (order.orden === 'Alexa enciende la alarma') {
+    } else if (order.orden === 'Alexa, enciende la alarma') {
       if (!isAlarmActive) {
         isAlarmActive = true;
         // Reproducir el audio de la alarma en bucle
