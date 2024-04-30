@@ -1,6 +1,7 @@
 const API_URL = 'https://65ef77c3ead08fa78a507bac.mockapi.io/ExCasaIHC';
 const imagen = document.querySelector('.imagen img');
 let isAlarmActive = false;
+const alarmAudio = new Audio('images/alarma.mp3');
 
 async function fetchLastOrder() {
   try {
